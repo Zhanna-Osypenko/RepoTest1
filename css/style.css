@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.block-modal-test {
+    width: 250px;
+    height: 340px;
+    border: 2px solid black;
+    /* padding: 10px; */
+    margin: 5px 280px;
+    position: relative;
+    overflow: hidden;
+}
+.form-slider {
+    width: 200%;
+    height: 100%;
+    background-color: bisque;
+    margin-left: 0;
+    transition: all ease 1s;
+
+}
+
+.left-50,
+.right-50 {
+    width: 50%;
+    float: left;
+    min-height: 50px;
+    padding: 10px;
+}
+
+.left-50 {
+    background-color: rgb(244, 91, 137);
+}
+.right-50 {
+    background-color: rgb(99, 244, 91);
+    max-height: 340px;
+    overflow-y: scroll;
+}
+
+.read-rules,
+.read-rules-back {
+    padding: 5px;
+    cursor: pointer;
+}
